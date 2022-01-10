@@ -16,5 +16,5 @@ const router=require('./routes/routes')
 app.use('/routes',router)
 
 app.listen(9000,()=>{
-    console.log("app is listning");
+    console.log("app is listning on port 9000");
 })
